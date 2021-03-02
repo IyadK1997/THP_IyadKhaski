@@ -1,0 +1,139 @@
+#bandeau {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.element1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.element2 { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.element3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.element4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.bandeau2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.bandeau2_1 {
+    height:100%;
+    margin-top:auto;
+}
+
+.bandeau2_1_1{
+    max-height:100%;
+    max-width:100%;
+    object-fit:contain;
+    object-position:center bottom;
+    width:auto;
+}
+
+.bar {
+    margin:0 auto;
+    width:575px;
+    border-radius:30px;
+    border:1px solid #dcdcdc;
+}
+
+.searchbar{
+    height:45px;
+    border:none;
+    width:500px;
+    font-size:16px;
+    outline: none;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+.button{ 
+    background-color: #f5f5f5;
+    border:none;
+    color:#707070;
+    font-size:15px;
+    padding: 10px 20px;
+    margin:5px;
+    border-radius:4px;
+    outline:none;
+}
+
+.voice{
+    height:20px;
+    position:relative;
+    top:5px;
+    left:10px;
+}
+
+.dernier {
+    flex-shrink: 0;
+    box-sizing: border-box;
+    background: #f2f2f2;
+    font-family: arial,sans-serif;
+}
+.France {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+    
+}
+
+.carbone {
+    display: flex;
+    justify-content: center;
+    order: 0;
+    width: 100%;
+}
+
+.dernier_sub {
+    display: flex;
+    justify-content: space-around;
+    min-width: 30%;    
+}
+.dernier_sub_sub {
+    display: flex;
+}
+
+.dernier_final {
+    display: flex;
+}
+.element5 {
+    color: #70757a;
+    display: block;
+    padding: 15px;
+    white-space: nowrap
+    
+}
+
+.test {
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+    color: #70757a;
+    align-content: center;
+}
